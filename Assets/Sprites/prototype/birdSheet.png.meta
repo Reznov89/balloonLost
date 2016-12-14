@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: a7fd5dfb0d8b9914bb0ebf793880372f
+timeCreated: 1479673031
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: birdSheet_0
+    21300002: birdSheet_1
+    21300004: birdSheet_2
+    21300006: birdSheet_3
+    21300008: birdSheet_4
+    21300010: birdSheet_5
+    21300012: birdSheet_6
+    21300014: birdSheet_7
+    21300016: birdSheet_8
+    21300018: birdSheet_9
+    21300020: birdSheet_10
+    21300022: birdSheet_11
+    21300024: birdSheet_12
+    21300026: birdSheet_13
+    21300028: birdSheet_14
+    21300030: birdSheet_15
+    21300032: birdSheet_16
+    21300034: birdSheet_17
+    21300036: birdSheet_18
+    21300038: birdSheet_19
+    21300040: birdSheet_20
+    21300042: birdSheet_21
+    21300044: birdSheet_22
+    21300046: birdSheet_23
+    21300048: birdSheet_24
+    21300050: birdSheet_25
+    21300052: birdSheet_26
+    21300054: birdSheet_27
+    21300056: birdSheet_28
+    21300058: birdSheet_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: birdSheet_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 595
+        width: 87
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 599
+        width: 90
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_2
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 600
+        width: 90
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_3
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 600
+        width: 88
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_4
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 599
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 481
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_6
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 482
+        width: 90
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_7
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 483
+        width: 89
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_8
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 482
+        width: 91
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_9
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 482
+        width: 92
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 363
+        width: 92
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_11
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 361
+        width: 95
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_12
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 360
+        width: 96
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_13
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 360
+        width: 93
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_14
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 357
+        width: 92
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_15
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 246
+        width: 92
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_16
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 243
+        width: 87
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_17
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 244
+        width: 85
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_18
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 243
+        width: 85
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_19
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 240
+        width: 84
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_20
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 133
+        width: 87
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_21
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 132
+        width: 88
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_22
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 129
+        width: 83
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_23
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 128
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_24
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 130
+        width: 88
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 20
+        width: 82
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_26
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 20
+        width: 84
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_27
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 18
+        width: 83
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_28
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 18
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdSheet_29
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 17
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
