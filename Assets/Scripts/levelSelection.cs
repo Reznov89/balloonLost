@@ -4,11 +4,11 @@ using System.Collections;
 public class levelSelection : MonoBehaviour {
 
 	public void levelOne (){
-		Application.LoadLevel("firstLevel");
+		Application.LoadLevel("level1");
 	}
 
 	public void levlTwo () {
-		Application.LoadLevel("secondLevel");
+		Application.LoadLevel("level2");
 	}
 
 	public void quit () {
