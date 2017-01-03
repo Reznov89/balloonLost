@@ -29,6 +29,9 @@ public class setings : MonoBehaviour {
 	int points;
     public Text scoreUI;
 
+	//script records
+	public records record;
+
 	void Awake ()
     {
 		GOScreen = lossScreen.GetComponent<Animator>();
@@ -56,6 +59,7 @@ public class setings : MonoBehaviour {
 		loss = true;
 		GOScreen.SetBool("isOver",true);
         medalist.GetPoints(points);
+		//enviar datos a records
 
     }
 
@@ -65,6 +69,7 @@ public class setings : MonoBehaviour {
         won = true;
         medalist.GetPoints(points);
         LCScreen.SetBool("isComplete",true);
+		//enviar datos a records
 	}
 
     public void updateScore(int point)

@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\levelSelection.cs" />
      <Compile Include="Assets\Scripts\parralaxScrolling.cs" />
      <Compile Include="Assets\Scripts\quitApp.cs" />
+     <Compile Include="Assets\Scripts\records.cs" />
      <Compile Include="Assets\Scripts\retryLevel.cs" />
      <Compile Include="Assets\Scripts\setings.cs" />
      <Compile Include="Assets\Scripts\trapTrigger.cs" />
