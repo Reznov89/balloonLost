@@ -28,6 +28,8 @@ public class MedalSystem : MonoBehaviour {
     public GameObject medalWon;
     public GameObject medalLoss;
 
+	//Vincula al gameData para guardar medallas
+	public gameData gD;
 
     void Awake()
 	{
@@ -42,24 +44,29 @@ public class MedalSystem : MonoBehaviour {
             //BRONCE
             SetMedals(0);
 			typeMedals = TypeMedals.bronze;
+			gD.checkMedal(0);
+
 		}
 		else if (points >= silverPoint && points < goldPoint)
         {
             //SILVER
 			SetMedals(1);
 			typeMedals = TypeMedals.silver;
+			gD.checkMedal(1);
 		}
 		else if (points >= goldPoint && points < platinunPoint)
         {
             //GOLD
             SetMedals(2);
 			typeMedals = TypeMedals.gold;
+			gD.checkMedal(2);
 		}
 		else if (points == platinunPoint)
         {
             //PLATINUN
             SetMedals(3);
 			typeMedals = TypeMedals.platinum;
+			gD.checkMedal(3);
 		}
 		else
         {
@@ -67,6 +74,7 @@ public class MedalSystem : MonoBehaviour {
             medal1.sprite = null;
             medal2.sprite = null;
             typeMedals = TypeMedals.defaultMedal;
+			gD.checkMedal(4);
 		}		
 	}
 

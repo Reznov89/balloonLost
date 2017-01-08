@@ -1,16 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\setings.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\saveAndLoad\medalLoad.cs">
     <Files>
-      <File FileName="Assets\Scripts\backToLeveSeletion.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\changeSide.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MedalSystem.cs" Line="34" Column="1" />
-      <File FileName="Assets\Scripts\levelSelection.cs" Line="11" Column="32" />
-      <File FileName="Assets\Scripts\setings.cs" Line="33" Column="24" />
-      <File FileName="Assets\Scripts\retryLevel.cs" Line="6" Column="1" />
-      <File FileName="Assets\Scripts\character.cs" Line="70" Column="3" />
-      <File FileName="Assets\Scripts\quitApp.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\records.cs" Line="20" Column="57" />
+      <File FileName="Assets\Scripts\saveAndLoad\gameData.cs" Line="26" Column="2" />
+      <File FileName="Assets\Scripts\MedalSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\saveAndLoad\saveData.cs" Line="9" Column="52" />
+      <File FileName="Assets\Scripts\saveAndLoad\loadData.cs" Line="9" Column="46" />
+      <File FileName="Assets\Scripts\saveAndLoad\medalLoad.cs" Line="21" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

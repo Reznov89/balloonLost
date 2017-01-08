@@ -30,7 +30,7 @@ public class setings : MonoBehaviour {
     public Text scoreUI;
 
 	//script records
-	public records record;
+	//public records record;
 
 	void Awake ()
     {

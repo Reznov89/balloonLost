@@ -57,6 +57,10 @@
      <Compile Include="Assets\Scripts\quitApp.cs" />
      <Compile Include="Assets\Scripts\records.cs" />
      <Compile Include="Assets\Scripts\retryLevel.cs" />
+     <Compile Include="Assets\Scripts\saveAndLoad\gameData.cs" />
+     <Compile Include="Assets\Scripts\saveAndLoad\loadData.cs" />
+     <Compile Include="Assets\Scripts\saveAndLoad\medalLoad.cs" />
+     <Compile Include="Assets\Scripts\saveAndLoad\saveData.cs" />
      <Compile Include="Assets\Scripts\setings.cs" />
      <Compile Include="Assets\Scripts\trapTrigger.cs" />
  <Reference Include="UnityEngine.UI">
