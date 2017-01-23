@@ -3,16 +3,24 @@ using System.Collections;
 
 public class levelSelection : MonoBehaviour {
 
-	public void levelOne (){
+	public void levelOne ()
+	{
 		Application.LoadLevel("level1");
 	}
 
-	public void levlTwo () {
+	public void levlTwo () 
+	{
 		Application.LoadLevel("level2");
 	}
 
-	public void quit () {
+	public void quit () 
+	{
 		Application.Quit();
+	}
+
+	public void backToTitle()
+	{
+		Application.LoadLevel("intro");
 	}
 
 }

@@ -5,6 +5,11 @@ public class gameData : MonoBehaviour {
 
 	string levelName;
 
+	int level;
+
+	public static gameData gameDATA;
+
+	public static string playerID{get;set;}
 	public static int level1Record{get;set;}
 	public static int level2Record{get;set;}
 	public static int level3Record{get;set;}
@@ -16,58 +21,39 @@ public class gameData : MonoBehaviour {
 	public static int level9Record{get;set;}
 	public static int level10Record{get;set;}
 
-	/*
-	public Sprite bronzeMedal;
-	public Sprite silverMedal;
-	public Sprite goldMedal;
-	public Sprite platinunMedal;
-	*/
-
-	void Awake () {
-		DontDestroyOnLoad(gameObject);
+	void Awake () 
+	{
+		if (gameObject == null)
+		{
+			gameDATA = this;
+			DontDestroyOnLoad(gameObject);
+		}
+		else if (gameDATA != this)
+		{
+			Destroy (gameObject);
+		}
 	}
 	
-	public void checkMedal(int medal) 
+	public void checkMedal(int medal, string levelName) 
 	{
-		levelName = Application.loadedLevelName;
-		
 		switch (levelName)
 		{
 		case "level1":
 			level1Record = medal;
+			level = 1;
 			break;
 		case "level2":
 			level2Record = medal;
+			level = 2;
 			break;
 		case "level3":
 			level3Record = medal;
+			level = 3;
 			break;
 		}
-		//Debug.Log("para el " + levelName + " corresponde la " + medal);
-		saveData.saveAllData();
-	}
-	
-	public void medalSet() 
-	{
-		/*switch (medal) 
-		{
-		case 0: //NO MEDAL
-			Debug.Log ("Bronze");
-			break;
-		case 1:
-			Debug.Log ("Silver");
-			break;
-		case 2:
-			Debug.Log ("Gold");
-			break;
-		case 3:
-			Debug.Log ("Platinun");
-			break;
-		case 4:
-			Debug.Log ("No medal");
-			break;
-		}*/
-	}
 
+		saveData.saveAllData(level);
+	
+	}
 
 }

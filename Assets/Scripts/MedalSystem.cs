@@ -12,7 +12,8 @@ public enum TypeMedals
 }
 
 
-public class MedalSystem : MonoBehaviour {
+public class MedalSystem : MonoBehaviour 
+{
 
 	private int bronzePoint = 40;
 	private int silverPoint = 55;
@@ -31,10 +32,13 @@ public class MedalSystem : MonoBehaviour {
 	//Vincula al gameData para guardar medallas
 	public gameData gD;
 
+	string level;
+
     void Awake()
 	{
         medal1 = medalWon.GetComponent<SpriteRenderer>();
         medal2 = medalLoss.GetComponent<SpriteRenderer>();
+		level = Application.loadedLevelName;
     }
 
 	public void GetPoints(int points)
@@ -44,7 +48,7 @@ public class MedalSystem : MonoBehaviour {
             //BRONCE
             SetMedals(0);
 			typeMedals = TypeMedals.bronze;
-			gD.checkMedal(0);
+			gD.checkMedal(0, level);
 
 		}
 		else if (points >= silverPoint && points < goldPoint)
@@ -52,21 +56,21 @@ public class MedalSystem : MonoBehaviour {
             //SILVER
 			SetMedals(1);
 			typeMedals = TypeMedals.silver;
-			gD.checkMedal(1);
+			gD.checkMedal(1, level);
 		}
 		else if (points >= goldPoint && points < platinunPoint)
         {
             //GOLD
             SetMedals(2);
 			typeMedals = TypeMedals.gold;
-			gD.checkMedal(2);
+			gD.checkMedal(2, level);
 		}
 		else if (points == platinunPoint)
         {
             //PLATINUN
             SetMedals(3);
 			typeMedals = TypeMedals.platinum;
-			gD.checkMedal(3);
+			gD.checkMedal(3, level);
 		}
 		else
         {
@@ -74,7 +78,7 @@ public class MedalSystem : MonoBehaviour {
             medal1.sprite = null;
             medal2.sprite = null;
             typeMedals = TypeMedals.defaultMedal;
-			gD.checkMedal(4);
+			gD.checkMedal(4, level);
 		}		
 	}
 
